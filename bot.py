@@ -86,7 +86,7 @@ loop = asyncio.get_event_loop()
 
 async def start():
     print('\n')
-    print('Initalizing DH Networks Bot')
+    print('Initalizing Bot')
     bot_info = await TheBlackBot.get_me()
     TheBlackBot.username = bot_info.username
     await initialize_clients()
@@ -114,7 +114,7 @@ async def start():
     bind_address = "0.0.0.0"
     await web.TCPSite(app, bind_address, Var.PORT).start()
     await restart_bots()
-    print("Bot Started Powered By @DH Networks")
+    print("Bot Started Powered By @TheBlackXYZBotz")
     await idle()
 
 # Credit @TheBlackXYZ.
