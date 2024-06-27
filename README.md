@@ -68,7 +68,7 @@ ________________________________________________________________________________
 <details><summary><b>Deploy To Heroku</b></summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/TheBlackxyz/TheBlackXYZ-Bot">
+<a href="https://heroku.com/deploy?template=https://github.com/TheBlackxyz/TheBlackXYZFileStore">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy To Heroku">
 </a>
 </p>
@@ -80,7 +80,7 @@ ________________________________________________________________________________
 <br>
 <br>
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/TheBlackxyz/TheBlackXYZ-Bot&branch=Black&name=TheBlackXYZ-Bot)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/TheBlackxyz/TheBlackXYZFileStore&branch=Black&name=TheBlackXYZFileStore)
 </details>
 
 <details><summary><b>Deploy To Render</b></summary>
@@ -107,7 +107,7 @@ Use these settings when adding a monitor:</b>
 <b>Click on the below button to deploy directly to render ↓</b>
 <br>
 <br>
-<a href="https://render.com/deploy?repo=https://github.com/TheBlackxyz/TheBlackXYZ-Bot/tree/Black">
+<a href="https://render.com/deploy?repo=https://github.com/TheBlackxyz/TheBlackXYZFileStore/tree/Black">
 <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
 </a>
 </details>
@@ -115,7 +115,7 @@ Use these settings when adding a monitor:</b>
 <details><summary><b>Deploy To VPS</summary>
 
 
-`git clone https://github.com/TheBlackxyz/TheBlackXYZ-Bot`
+`git clone https://github.com/TheBlackxyz/TheBlackXYZFileStore`
 
 Install Packages
 
@@ -149,7 +149,7 @@ Fork the repo and edit as per your needs.</b>
 
 ## Disclaimer 📄
 [![GNU Affero General Public License 2.0](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)    
-<b>Licensed under [GNU AGPL 2.0.](https://github.com/TheBlackxyz/TheBlackXYZ-Bot/blob/Black/LICENSE)
+<b>Licensed under [GNU AGPL 2.0.](https://github.com/TheBlackxyz/TheBlackXYZFileStore/blob/Black/LICENSE)
 Selling The Codes To Other People For Money Is *Strictly Prohibited*.</b>
 
 </pre>
