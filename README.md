@@ -15,7 +15,7 @@
 
 
 <p align="center">
-  <img src="https://graph.org/file/1b74c92f7a3f375857cab.jpg" alt="TheBlackXYZFileStore Logo">
+  <img src="https://graph.org/file/9d01abe8f3018a91476ac.jpg" alt="TheBlackXYZFileStore Logo">
 </p>
 <h1 align="center">
   TheBlackXYZ-File-Store-Bot
@@ -60,7 +60,7 @@ ________________________________________________________________________________
 
 # Variable ✅
 # Required Variables
-* <b></b>
+* <b> From Config.py </b>
 
 
 # Deploy On Multiple Platforms 
