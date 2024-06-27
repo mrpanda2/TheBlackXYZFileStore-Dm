@@ -34,15 +34,15 @@ def is_enabled(value, default):
 # Please Love & Support 💗💗🙏
       
 # Owner Information
-API_ID = int(environ.get("API_ID", "29581172"))
+API_ID = int(environ.get("API_ID", ""))
 API_HASH = environ.get("API_HASH", "")
 ADMINS = int(environ.get("ADMINS", ""))
 
 # Database Information
 CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://filestore2s1:filestore2s1@cluster0.6ypf3cg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-CDB_NAME = environ.get("CDB_NAME", "clonevjbotz")
+CDB_NAME = environ.get("CDB_NAME", "Cluster0")
 DB_URI = environ.get("DB_URI", "mongodb+srv://filestore2:filestore2@cluster0.xcwcujp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = environ.get("DB_NAME", "vjbotz")
+DB_NAME = environ.get("DB_NAME", "Cluster0")
 
 # Credit @TheBlackXYZ.
 # Please Don't remove credit.
@@ -54,16 +54,16 @@ DB_NAME = environ.get("DB_NAME", "vjbotz")
 
 # Bot Information
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
-BOT_USERNAME = environ.get("BOT_USERNAME", "FilestoreContributerBot") # your bot username without @
-PICS = (environ.get('PICS', ' https://graph.org/file/7c3fc800ccee1f5430749.jpg https://graph.org/file/110ee825ca6fc4b435a94.jpg')).split() # Bot Start Picture
+BOT_USERNAME = environ.get("BOT_USERNAME", "TheBlackXYZFileStoreBot") # your bot username without @
+PICS = (environ.get('PICS', 'https://graph.org/file/517bc12dd5c1347df10f6.jpg')).split() # Bot Start Picture
 
 # Auto Delete Information
 AUTO_DELETE = int(environ.get("AUTO_DELETE", "5")) # Time in Minutes
 AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "300")) # Time in Seconds
 
 # Channel Information
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002118023638"))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002229781799')).split()]
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", ""))
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
 
 # Credit @TheBlackXYZ.
 # Please Don't remove credit.
@@ -92,10 +92,10 @@ PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 # File Stream Config
 class Var(object):
     MULTI_CLIENT = False
-    name = str(getenv('name', 'filetolinkvjbot'))
+    name = str(getenv('name', 'theblackfilestore'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
-    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002118023638'))
+    BIN_CHANNEL = int(getenv('BIN_CHANNEL', ''))
     PORT = int(getenv('PORT', 8080))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
     PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
