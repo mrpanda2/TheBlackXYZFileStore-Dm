@@ -40,8 +40,7 @@ ADMINS = int(environ.get("ADMINS", "7216492043"))
 
 # Database Information
 CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://cdbpandafile:cdbpandafile@cdbpandafile.vmtpr6u.mongodb.net/?retryWrites=true&w=majority&appName=CDBPandaFile")
-CDB_NAME = environ.get("CDB_NAME", "
-CDBPandaFile")
+CDB_NAME = environ.get("CDB_NAME", "CDBPandaFile")
 DB_URI = environ.get("DB_URI", "mongodb+srv://dbpandafile:dbpandafile@dbpanda.jzibnmg.mongodb.net/?retryWrites=true&w=majority&appName=DBPanda")
 DB_NAME = environ.get("DB_NAME", "DBPanda")
 
